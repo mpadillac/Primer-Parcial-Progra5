@@ -81,6 +81,15 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\" />
+    <Folder Include="Logica\Accion\" />
+    <Folder Include="Logica\Especificacion\" />
+    <Folder Include="Logica\Interfaz\" />
+    <Folder Include="Logica\Repositorio\" />
+    <Folder Include="Logica\Servicio\" />
+    <Folder Include="Logica\Validacion\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
