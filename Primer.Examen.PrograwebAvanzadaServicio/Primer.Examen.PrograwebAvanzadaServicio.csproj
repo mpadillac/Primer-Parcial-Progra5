@@ -75,12 +75,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logica\Accion\Examen1a.cs" />
+    <Compile Include="Logica\Accion\Examen1b.cs" />
     <Compile Include="Logica\Especificacion\Examen1a.cs" />
+    <Compile Include="Logica\Especificacion\Examen1b.cs" />
     <Compile Include="Logica\Interfaz\IService1.cs" />
     <Compile Include="Logica\Servicio\Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
     <Compile Include="Logica\Validacion\Examen1a.cs" />
+    <Compile Include="Logica\Validacion\Examen1b.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

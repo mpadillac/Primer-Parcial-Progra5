@@ -28,5 +28,13 @@ namespace Primer.Examen.PrograwebAvanzadaServicio.Logica.Servicio
             var elResultado = laEspecificacion.Examen1A(a, b,c);
             return elResultado;
         }
+
+        public double Examen1B(double a, double b, double c)
+        {
+            Logica.Especificacion.Examen1b laEspecificacion;
+            laEspecificacion = new Logica.Especificacion.Examen1b();
+            var elResultado = laEspecificacion.Examen1B(a, b, c);
+            return elResultado;
+        }
     }
 }

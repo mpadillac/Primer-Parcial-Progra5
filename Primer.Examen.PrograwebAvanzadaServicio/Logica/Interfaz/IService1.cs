@@ -15,6 +15,9 @@ namespace Primer.Examen.PrograwebAvanzadaServicio.Logica.Servicio
         double Examen1A(double a, double b, double c);
 
         [OperationContract]
+        double Examen1B(double a, double b, double c);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
