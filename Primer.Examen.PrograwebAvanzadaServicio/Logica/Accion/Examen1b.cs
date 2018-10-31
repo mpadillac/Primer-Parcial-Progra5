@@ -20,14 +20,9 @@ namespace Primer.Examen.PrograwebAvanzadaServicio.Logica.Accion
         {
             // valide que los parámetros sean correctos
 
-            double mayor = Encontrarelmayor(a,b,c);
-            double menor = Encontrarelmenor(a,b,c);
-            double mcd = MCD(a,b,c);
-
             var laValidacion = new Logica.Validacion.Examen1a();
             double elResultado = 0.0;
             if (laValidacion.LosOperadoresSonCorrectos(a, b, c))
-
                 
             elResultado = MCM(a,b,c);
 
